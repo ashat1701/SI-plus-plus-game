@@ -3,8 +3,8 @@
 #include <userver/utest/utest.hpp>
 
 UTEST(SayHelloTo, Basic) {
-  using pg_grpc_service_template::SayHelloTo;
-  using pg_grpc_service_template::UserType;
+  using SI-plus-plus-game::SayHelloTo;
+  using SI-plus-plus-game::UserType;
 
   EXPECT_EQ(SayHelloTo("Developer", UserType::kFirstTime),
             "Hello, Developer!\n");

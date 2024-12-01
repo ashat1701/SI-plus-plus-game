@@ -34,8 +34,8 @@ int main(int argc, char* argv[]) {
           .Append<userver::components::HttpClient>()
           .Append<userver::server::handlers::TestsControl>();
 
-  pg_grpc_service_template::AppendHello(component_list);
-  pg_grpc_service_template::AppendHelloClient(component_list);
+  SI-plus-plus-game::AppendHello(component_list);
+  SI-plus-plus-game::AppendHelloClient(component_list);
 
   return userver::utils::DaemonMain(argc, argv, component_list);
 }

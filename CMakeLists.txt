@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(pg_grpc_service_template CXX)
+project(SI-plus-plus-game CXX)
 
 # Adding userver dependency
 find_package(userver COMPONENTS core grpc postgresql QUIET)
